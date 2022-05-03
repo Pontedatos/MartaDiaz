@@ -22,4 +22,4 @@ Si en la ejecución de estos tres pasos se produjera algún inconveniente, el co
 
 ### Creación de la página
 Desde el repositorio creado en GitHub, hacemos *click* en Settings. Se activará la opción de Pages. Seleccionamos la rama main y la carpeta /root. Una vez se guardan los cambios (*save*), se genera una url que debemos incluir en la descripción del repositorio en Pontedatos. Cabe mencionar que es normal que la página web tarde algunos segundos (o minutos) en actualizarse. 
-De forma automática, GitHub convierte el archivo `README.md` en `html` , de forma tal que el índice de prácticas que hemos configura al inicio desde nano —con enlaces— será el contenido mismo de nuestra página web
+De forma automática, GitHub convierte el archivo `README.md` en `html` , de forma tal que el índice de prácticas que hemos configurado al inicio desde nano —con enlaces— será el contenido mismo de nuestra página web
