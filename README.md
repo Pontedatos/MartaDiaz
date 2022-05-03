@@ -56,7 +56,7 @@ La última práctica del curso consistió en el trabajo con un conjunto de datos
 
 Con el siguiente enlace se accede a la explicación del último trabajo de la asignatura: creación de una web. 
 
-- [Metodologías]
+- [Metodologías](https://github.com/Pontedatos/MartaDiaz/blob/main/metodologia.md)
 
 ## Resumen de la asignatura 
 
