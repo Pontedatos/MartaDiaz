@@ -1,4 +1,4 @@
-# Prácticas de Periodismo de Datos 
+X# Prácticas de Periodismo de Datos 
 
 ### Grupo 63. 2021-22. Universidad Carlos III de Madrid. 
 En este repositorio se recopilan las prácticas realizadas por la alumna Marta Díaz González en la asignatura de Periodismo de Datos. 
