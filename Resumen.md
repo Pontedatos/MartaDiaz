@@ -35,7 +35,7 @@ Aunque pudiera parecer una cuestión menor, lo recojo aquí por ser una utilidad
 
 Momento de vincular el repositorio creado vía online en GitHub con una carpeta en nuestro ordenador personal, de forma tal que los cambios realizados en nuestro archivo local se añadan también al repositorio en línea. 
 
-Clonamos el repositorio en el ordenador, copiando para ello el enlace desde Github (botón verde “Code”) y ejecutando en la terminal el comando `git clone incluir-aquí-enlace`. Es importante hace esto desde la carpeta donde queramos guardar el repositorio vinculado (es decir, asegurarnos mediante `pwd` de estar en el sitio correcto, y si no es así, movernos con `cd` ). 
+Clonamos el repositorio en el ordenador, copiando para ello el enlace desde Github (botón verde “Code”) y ejecutando en la terminal el comando `git clone *incluir-aquí-enlace*`. Es importante hace esto desde la carpeta donde queramos guardar el repositorio vinculado (es decir, asegurarnos mediante `pwd` de estar en el sitio correcto, y si no es así, movernos con `cd`). 
 
 Para vincular los cambios debemos configurar el usuario y correo de GitHub en la terminal. Usamos para ello dos comandos: 
 
@@ -45,27 +45,27 @@ Para vincular los cambios debemos configurar el usuario y correo de GitHub en la
 Una vez completada la configuración, ya sería posible empezar a trabajar con GitHub desde la terminal. El proceso de vinculación de los archivos se realiza en tres sencillos pasos: 
 
 1.	`git add . ` añade los cambios de archivo en el directorio.
-2.	´git commit .` para comitear.
+2.	`git commit .` para comitear.
 3.	`git push` para enviar los cambios al repositorio en GitHub. 
 
-Además de estos tres elementales, existen otros comandos muy útiles. El primero de ellos `git status` nos aporta información sobre el estado en el que se encuentra el directorio de trabajo (los cambios que se han iniciado y faltan por comitear, etc.). Por su parte, `git pull` permite actualizar el repositorio local con el contenido del remoto (es decir, actualiza en el ordenador los cambios que se han realizado en la nube). 
+Además de estos tres elementales, existen otros comandos muy útiles. El primero de ellos, `git status`, nos aporta información sobre el estado en el que se encuentra el directorio de trabajo (los cambios que se han iniciado y faltan por comitear, etc.). Por su parte, `git pull` permite actualizar el repositorio local con el contenido del remoto (es decir, actualiza en el ordenador los cambios que se han realizado en la nube). 
 
 
 ## Configuración de un programa de edición de texto
 
 La edición de texto desde la terminal se ha llevado a cabo con nano. Para ello se ha procedido a su instalación con `brew install nano`. Las compañeras de Windows configuraron el editor para conseguir ajustar el texto a la pantalla y numerar las líneas (en mi caso, no tengo nano configurado de esa forma, pero desconozco si se debe a una cuestión de incompatibilidad con Mac). En cualquier caso, habría que ejecutar `nano $HOME/.nanorc` y escribir a continuación lo siguiente: 
 
-´# Ajustar el texto a pantalla
-set softwrap
-# Numerar las líneas
-set linenumbers´
+`# Ajustar el texto a pantalla`
+`set softwrap`
+`# Numerar las líneas`
+`set linenumbers`
 
 Guardamos los cambios con `Ctrl + O` o salimos del archivo haciendo `Crtl + X` (se nos preguntará si queremos guardar igualmente). 
 
 
 ## Configuración y funcionamiento de un gestor de paquetes/programas del emulador de la terminal 
 El gestor o administrador de paquetes más popular para Mac OS X es Homebrew. Para su instalación se copió lo siguiente en la terminal: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-##Versión del lenguaje de SHELL utilizado
+## Versión del lenguaje de SHELL utilizado
 Bash es el Shell pretederminado en macOS, pero desde la propia terminal se ofrece la posibilidad al usuario de pasar a `zsh` , ejecutando para ello `chsh -s /bin/zsh`. En mi caso, este cambio no ha sido realizado, como puede comprobarse al ejecutar `echo $SHELL`, pues la respuesta obtenida es “/bin/bash”. La versión específica de Bash puede conocerse por dos vías: `$SHELL –versión`o `bash --version`. La respuesta obtenida en uno y otro caso es: GNU bash, version 3.2.57. 
 ## Valor de la variable de entorno PATH 
 PATH es una de las variables de entorno más importantes para ejecutar comandos. En primer lugar, hay que recordar que todas las variables empiezan con el símbolo `$`, o lo que es lo mismo, se invocan con él. Podemos ver las variables de esta forma: `$PATH`. Si consultar el valor de la variable usamos `echo` :`echo $PATH`.
@@ -83,7 +83,7 @@ A lo largo de este resumen ya se han ido introduciendo varios comandos, pero se 
 
 - `env` para ver todas las variables de entorno. 
 
-- `mkdir` para crear un repositorio. Por ejemplo, si quisiéramos crear una carpeta en la que almacenar todos los repositorios de GitHub, haríamos `mkdir github` . Si queremos crear el directorio y entrar en la carpeta de una vez, ponemos las órdenes seguidas pero separadas por dos `&&`  (ejecuta dos comandos en una misma línea). En este caso: `mkdir github && cd github`. Ex
+- `mkdir` para crear un repositorio. Por ejemplo, si quisiéramos crear una carpeta en la que almacenar todos los repositorios de GitHub, haríamos `mkdir github` . Si queremos crear el directorio y entrar en la carpeta de una vez, ponemos las órdenes seguidas pero separadas por dos `&&`  (ejecuta dos comandos en una misma línea). En este caso: `mkdir github && cd github`. 
 
 - `cp` , seguido de origen y del destino, para copiar.
 - `mv` para mover o renombrar. 
