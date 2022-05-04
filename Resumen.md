@@ -35,7 +35,7 @@ Aunque pudiera parecer una cuestión menor, lo recojo aquí por ser una utilidad
 
 Momento de vincular el repositorio creado vía online en GitHub con una carpeta en nuestro ordenador personal, de forma tal que los cambios realizados en nuestro archivo local se añadan también al repositorio en línea. 
 
-Clonamos el repositorio en el ordenador, copiando para ello el enlace desde Github (botón verde “Code”) y ejecutando en la terminal el comando `git clone *incluir-aquí-enlace*`. Es importante hace esto desde la carpeta donde queramos guardar el repositorio vinculado (es decir, asegurarnos mediante `pwd` de estar en el sitio correcto, y si no es así, movernos con `cd`). 
+Clonamos el repositorio en el ordenador, copiando para ello el enlace desde Github (botón verde “Code”) y ejecutando en la terminal el comando `git clone incluir-aquí-enlace`. Es importante hace esto desde la carpeta donde queramos guardar el repositorio vinculado (es decir, asegurarnos mediante `pwd` de estar en el sitio correcto, y si no es así, movernos con `cd`). 
 
 Para vincular los cambios debemos configurar el usuario y correo de GitHub en la terminal. Usamos para ello dos comandos: 
 
@@ -69,7 +69,7 @@ El gestor o administrador de paquetes más popular para Mac OS X es Homebrew. Pa
 Bash es el Shell pretederminado en macOS, pero desde la propia terminal se ofrece la posibilidad al usuario de pasar a `zsh` , ejecutando para ello `chsh -s /bin/zsh`. En mi caso, este cambio no ha sido realizado, como puede comprobarse al ejecutar `echo $SHELL`, pues la respuesta obtenida es “/bin/bash”. La versión específica de Bash puede conocerse por dos vías: `$SHELL –versión`o `bash --version`. La respuesta obtenida en uno y otro caso es: GNU bash, version 3.2.57. 
 ## Valor de la variable de entorno PATH 
 PATH es una de las variables de entorno más importantes para ejecutar comandos. En primer lugar, hay que recordar que todas las variables empiezan con el símbolo `$`, o lo que es lo mismo, se invocan con él. Podemos ver las variables de esta forma: `$PATH`. Si consultar el valor de la variable usamos `echo` :`echo $PATH`.
-## Comandos utilizados y ejemplos.
+## Comandos utilizados y ejemplos
 A lo largo de este resumen ya se han ido introduciendo varios comandos, pero se presentan a continuación algunos de los que no han sido presentados todavía: 
 - `cat` para concatenar archivos. 
 - `ls` lista los archivos o directorios que hay en el espacio de trabajo en el que nos encontramos. Por ejemplo, si ejecuto este comando en mi carpeta MartaDiaz, se imprimirían en pantalla todos los archivos relativos a las prácticas de la Asignatura de Periodismo de Datos. 
