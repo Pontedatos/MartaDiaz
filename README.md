@@ -33,7 +33,7 @@ Esta práctica reúne varios archivos. La tarea consistió en completar los cuad
 
 - [Prueba con R (html)]( https://github.com/Pontedatos/MartaDiaz/blob/main/probando-con-r.html)
 
-- [Prueba con R (ipynb)]( https://github.com/Pontedatos/MartaDiaz/blob/main/api-pandas-folium.ipynb)
+- [Prueba con R (ipynb)](https://github.com/Pontedatos/MartaDiaz/blob/main/probando-con-r.ipynb)
 
 
 ## Práctica 4
@@ -44,7 +44,7 @@ La última práctica del curso consistió en el trabajo con un conjunto de datos
 
 - [Zonas Wifi públicas Alcobendas (html)]( https://github.com/Pontedatos/MartaDiaz/blob/main/practica-4.html)
 
-- [Zonas Wifi públicas Alcobendas (ipynb)]( https://github.com/Pontedatos/MartaDiaz/blob/main/python-api-covid19-pandas.ipynb)
+- [Zonas Wifi públicas Alcobendas (ipynb)](https://github.com/Pontedatos/MartaDiaz/blob/main/practica-4.ipynb)
 
 - [Zonas Wifi públicas Alcobendas (csv)]( https://github.com/Pontedatos/MartaDiaz/blob/main/practica-4.csv)
 
