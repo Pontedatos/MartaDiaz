@@ -62,5 +62,5 @@ Con el siguiente enlace se accede a la explicación del último trabajo de la as
 
 Link para acceder al archivo resumen del proceso de aprendizaje y los contenidos impartidos a lo largo del cuatrimestre. 
 
-- [Resumen]
+- [Resumen](https://github.com/Pontedatos/MartaDiaz/blob/main/Resumen.md)
 
